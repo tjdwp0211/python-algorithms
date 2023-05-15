@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("backjoon/11052-카드구매하기/input.txt")
+sys.stdin = open("backjoon/완-11052-카드구매하기/input.txt")
 import sys
 
 input = sys.stdin.readline
