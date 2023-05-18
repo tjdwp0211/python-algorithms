@@ -1,3 +1,7 @@
+import sys
+
+sys.stdin = open("backjoon/2232-지뢰/input.txt")
+
 num = int(input())
 booms = [0] + [int(input()) for _ in range(1, num + 1)] + [0]
 clicks = []
