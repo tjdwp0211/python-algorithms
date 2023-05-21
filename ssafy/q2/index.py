@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("q2/input.txt")
+sys.stdin = open("ssafy/q2/input.txt")
 
 from collections import defaultdict
 

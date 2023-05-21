@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("q1/input.txt")
+sys.stdin = open("ssafy/q1/input.txt")
 from itertools import *
 
 # N명의 사람들이 좌우 일렬로 서 있다
