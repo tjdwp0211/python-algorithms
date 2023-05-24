@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("backjoon/1157-단어공부/input.txt")
+sys.stdin = open("backjoon/완-1157-단어공부/input.txt")
 
 from collections import Counter
 
