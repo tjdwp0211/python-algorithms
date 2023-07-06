@@ -14,6 +14,5 @@ for test_case in range(1, T + 1):
     while ceil(A_player) != ceil(B_player):
         A_player = ceil(A_player / 2)
         B_player = ceil(B_player / 2)
-        print("A:", A_player, "| B:", B_player)
         round_count += 1
     print(round_count)
