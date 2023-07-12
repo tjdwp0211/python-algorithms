@@ -19,3 +19,14 @@ for _ in range(1, T + 1):
             max_point, max_cnt = cur_point, cur_cnt
 
     print(f"#{test_case} {max_point}")
+
+# ---------------------------Counter 사용---------------------------
+# T = int(input())
+
+# for _ in range(1, T + 1):
+#     test_case = int(input())
+#     docs = sorted(
+#         Counter(list(map(int, input().split()))).most_common(),
+#         key=lambda x: [-x[1], -x[0]],
+#     )
+#     print(f"#{test_case} {docs[0][0]}")
